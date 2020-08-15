@@ -1,0 +1,27 @@
+{
+  "name": "fuckychat",
+  "version": "1.0.0",
+  "description": "fuckychat by node",
+  "main": "node server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "node",
+    "chat"
+  ],
+  "author": "Yasir",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "geoip-lite": "^1.4.2",
+    "http": "0.0.1-security",
+    "mysql": "^2.18.1",
+    "request": "^2.88.2",
+    "socket.io": "^2.3.0",
+    "socketio-file-upload": "^0.7.2",
+    "validator": "^13.1.1"
+  }
+}
